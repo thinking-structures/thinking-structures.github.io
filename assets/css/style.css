@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
@@ -21,7 +25,7 @@ body {
 }
 
 .hero {
-  min-height: 420px;
+  min-height: 100vh;
   padding: 72px 56px;
   display: flex;
   align-items: center;
@@ -30,6 +34,7 @@ body {
     url("../images/home-wallpaper.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: var(--text);
 }
 
