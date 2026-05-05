@@ -1,5 +1,3 @@
-# Структуры мышления
-
 <div style="
   min-height: 360px;
   padding: 56px 48px;
