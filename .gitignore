@@ -1,0 +1,22 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS / temp
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Build output
+_site/
+dist/
+build/
+
+# Local environment
+.env
+.env.*
