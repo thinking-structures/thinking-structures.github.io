@@ -1,32 +1,33 @@
 # thinking-structures.github.io
 
-Сайт проекта «Структуры мышления».
+Сайт проекта «Структуры мышления» — открытый архив эссе, заметок, переводов и исследовательских материалов о научных понятиях, физических теориях и способах описания реальности.
 
 ## Разделы
 
 - [Физика](physics/)
-  - [Космология](cosmology/)
-  - [Квантовая физика](quantum-mechanics/)
-  - [Реляционизм](relational-program/)
-  - [Персоналии](personalities/)
-  - [Интересные публикации](interesting-publications/)
-  - [Интересные ресурсы](resources/)
+  - [Квантовая физика](physics/quantum-mechanics/)
+  - [Реляционная программа](physics/relational-program/)
+  - [Космология](physics/cosmology/)
+  - [Персоналии](physics/personalities/)
+  - [Интересные публикации](physics/interesting-publications/)
+  - [Интересные ресурсы](physics/resources/)
 
 - [Когнитология](cognitology/)
-  - [Нейропсихология](neurophysiology/)
-  - [Семиотика](semiotics/)
-  - [Сознание](consciousness/)
-  - [Эпистемология](epistemology/)
-  - [Искусстевнный разум](artificial-reason/)
-  - [Интересные публикации](interesting-publications/)
-  - [Интересные ресуры](resources/)
+  - [Нейрофизиология](cognitology/neurophysiology/)
+  - [Семиотика](cognitology/semiotics/)
+  - [Сознание](cognitology/consciousness/)
+  - [Эпистемология](cognitology/epistemology/)
+  - [Искусственный разум](cognitology/artificial-reason/)
+  - [Интересные публикации](cognitology/interesting-publications/)
+  - [Интересные ресурсы](cognitology/resources/)
 
 - [Системология](systemology/)
-  - [Персоналии](personalities/)
-  - [Интересные публикации](interesting-publications/)
-  - [Интересные ресурсы](resources/)
+  - [Персоналии](systemology/personalities/)
+  - [Интересные публикации](systemology/interesting-publications/)
+  - [Интересные ресурсы](systemology/resources/)
 
-- [Разное](other/) 
+- [Разное](other/)
 
-Публикация предполагается через GitHub Pages.
+## Публикация
 
+Сайт публикуется через GitHub Pages по адресу <https://thinking-structures.github.io>.
