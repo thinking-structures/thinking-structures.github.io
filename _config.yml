@@ -4,6 +4,14 @@ description: >-
   Переводы, статьи, реляционная программа.
 lang: ru
 
+# Явный список страниц в верхнем меню темы minima.
+# Без этого minima автоматически вставляет в шапку ВСЕ страницы сайта.
+header_pages:
+  - physics/index.md
+  - cognitology/index.md
+  - systemology/index.md
+  - other/index.md
+
 # Тема: одна из поддерживаемых GitHub Pages.
 # minima — простая и чистая; альтернативы: jekyll-theme-cayman, jekyll-theme-architect.
 theme: minima
