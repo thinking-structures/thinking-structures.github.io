@@ -1,30 +1,59 @@
 ---
-layout: default
 title: "Персоналии"
 permalink: /physics/quantum-physics/personalities/
-page_class: quantum-physics-page
 ---
-<div class="quantum-physics-page">
 
-<h1>Персоналии</h1>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Персоналии — Квантовая физика — Структуры реальности</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
 
-<p>
-  Персоналии, связанные с квантовой механикой, декогеренцией,
-  интерпретациями квантовой теории и близкими направлениями.
-</p>
+<body class="page-quantum-physics">
+  <div class="page">
 
-<ul>
-  {% assign personalities = site.pages
-    | where: "section", "quantum-physics-personalities"
-    | sort: "title" %}
+    <header class="topbar">
+      <h1 class="brand">
+        <a href="/">Структуры реальности</a>
+        <span class="crumb-sep">/</span>
+        <a href="/physics/">Физика</a>
+        <span class="crumb-sep">/</span>
+        <a href="/physics/quantum-physics/">Квантовая физика</a>
+        <span class="crumb-sep">/</span>
+        <span class="crumb-current">Персоналии</span>
+      </h1>
 
-  {% for person in personalities %}
-    {% unless person.url == page.url %}
-      <li>
-        <a href="{{ person.url | relative_url }}">{{ person.title }}</a>
-      </li>
-    {% endunless %}
-  {% endfor %}
-</ul>
+      <div class="url">thinking-structures.github.io</div>
+    </header>
 
-</div>
+    <main class="prose">
+      <h1>Персоналии</h1>
+
+      <p>
+        Персоналии, связанные с квантовой механикой, декогеренцией,
+        интерпретациями квантовой теории и близкими направлениями.
+      </p>
+
+      {% assign personalities = site.pages
+        | where: "section", "quantum-physics-personalities"
+        | sort: "order" %}
+
+      <ul class="subsections">
+        {% for person in personalities %}
+          <li>
+            <a href="{{ person.url | relative_url }}">{{ person.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="back-link">
+        <a href="/physics/quantum-physics/">← К разделу «Квантовая физика»</a>
+      </p>
+    </main>
+
+  </div>
+</body>
+</html>
