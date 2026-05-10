@@ -1,0 +1,49 @@
+title: Структуры реальности
+description: >-
+  Сайт проекта «Структуры реальности»: физика, когнитология, системология.
+  Переводы, статьи, реляционная программа.
+lang: ru
+
+# Явный список страниц в верхнем меню темы minima.
+# Без этого minima автоматически вставляет в шапку ВСЕ страницы сайта.
+header_pages:
+  - physics/index.md
+  - cognitology/index.md
+  - systemology/index.md
+  - other/index.md
+
+# Тема: одна из поддерживаемых GitHub Pages.
+# minima — простая и чистая; альтернативы: jekyll-theme-cayman, jekyll-theme-architect.
+theme: minima
+
+# Поддержка LaTeX через MathJax (включается в _includes/head.html отдельно — см. ниже).
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Плагины, разрешённые на GitHub Pages.
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Ключевая настройка: README.md каждой папки рендерится как index.
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
+
+relative_links:
+  enabled: true
+  collections: true
+
+# Не публиковать служебные файлы.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - "*.log"
+  - .gitignore
