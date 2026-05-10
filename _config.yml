@@ -46,7 +46,12 @@ defaults:
       path: "**/*.html"
     values:
       layout: null
-
+  - scope:
+      path: "physics/quantum-physics"
+    values:
+      layout: default
+      page_class: quantum-physics-page
+      
 # Не публиковать служебные файлы.
 exclude:
   - Gemfile
@@ -54,9 +59,3 @@ exclude:
   - vendor/
   - "*.log"
   - .gitignore
-defaults:
-  - scope:
-      path: "physics/quantum-physics"
-    values:
-      layout: default
-      page_class: quantum-physics-page
