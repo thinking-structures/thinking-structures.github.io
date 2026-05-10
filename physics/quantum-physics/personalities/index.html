@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Персоналии"
+permalink: /physics/quantum-physics/personalities/
+---
+
+<h1>Персоналии</h1>
+
+<p>
+  Персоналии, связанные с квантовой механикой, декогеренцией,
+  интерпретациями квантовой теории и близкими направлениями.
+</p>
+
+<ul>
+  {% assign personalities = site.pages
+    | where: "section", "quantum-physics-personalities"
+    | sort: "title" %}
+
+  {% for person in personalities %}
+    {% unless person.url == page.url %}
+      <li>
+        <a href="{{ person.url | relative_url }}">{{ person.title }}</a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
