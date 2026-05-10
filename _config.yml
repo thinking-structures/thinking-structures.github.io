@@ -40,6 +40,13 @@ relative_links:
   enabled: true
   collections: true
 
+# HTML файлы отдаются как есть, без применения Jekyll layout.
+defaults:
+  - scope:
+      path: "**/*.html"
+    values:
+      layout: null
+
 # Не публиковать служебные файлы.
 exclude:
   - Gemfile
