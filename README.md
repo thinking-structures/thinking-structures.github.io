@@ -31,5 +31,3 @@
 ## Публикация
 
 Сайт публикуется через GitHub Pages по адресу <https://thinking-structures.github.io>.
-
-ыфвфывфы
