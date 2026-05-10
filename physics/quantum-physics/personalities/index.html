@@ -26,16 +26,3 @@ page_class: quantum-physics-page
   {% endfor %}
 </ul>
 
-<h2>Диагностика</h2>
-
-<ul>
-{% for p in site.pages %}
-  {% if p.path contains "personalities" %}
-    <li>
-      {{ p.title }} —
-      {{ p.url }} —
-      section: {{ p.section }}
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
