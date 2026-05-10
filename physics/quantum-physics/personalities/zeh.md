@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ts-page
 title: "Цех, Хайнц-Дитер"
 permalink: /physics/quantum-physics/personalities/zeh/
 section: quantum-physics-personalities
