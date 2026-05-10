@@ -1,12 +1,18 @@
 ---
-
-layout: default
+layout: page
 title: "Цех, Хайнц-Дитер"
 permalink: /physics/quantum-physics/personalities/zeh/
 section: quantum-physics-personalities
-page_class: quantum-physics-page
 order: 10
-
+body_class: page-quantum-physics
+breadcrumbs:
+  - title: "Физика"
+    url: /physics/
+  - title: "Квантовая физика"
+    url: /physics/quantum-physics/
+  - title: "Персоналии"
+    url: /physics/quantum-physics/personalities/
+  - title: "Цех, Хайнц-Дитер"
 ---
 
 # Цех, Хайнц-Дитер

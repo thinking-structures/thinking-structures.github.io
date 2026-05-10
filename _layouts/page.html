@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Структуры реальности</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body class="{{ page.body_class }}">
+  <div class="page">
+
+    <header class="topbar">
+      <h1 class="brand">
+        <a href="{{ '/' | relative_url }}">Структуры реальности</a>
+
+        {% for item in page.breadcrumbs %}
+          <span class="crumb-sep">/</span>
+
+          {% if item.url %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% else %}
+            <span class="crumb-current">{{ item.title }}</span>
+          {% endif %}
+        {% endfor %}
+      </h1>
+    </header>
+
+    <main class="prose">
+      {{ content }}
+    </main>
+
+  </div>
+</body>
+</html>

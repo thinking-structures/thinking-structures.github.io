@@ -1,59 +1,22 @@
 ---
+layout: list
 title: "Персоналии"
 permalink: /physics/quantum-physics/personalities/
+body_class: page-quantum-physics
+list_section: quantum-physics-personalities
+back_url: /physics/quantum-physics/
+back_title: К разделу «Квантовая физика»
+breadcrumbs:
+  - title: "Физика"
+    url: /physics/
+  - title: "Квантовая физика"
+    url: /physics/quantum-physics/
+  - title: "Персоналии"
 ---
 
-<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Персоналии — Квантовая физика — Структуры реальности</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
+<h1>Персоналии</h1>
 
-<body class="page-quantum-physics">
-  <div class="page">
-
-    <header class="topbar">
-      <h1 class="brand">
-        <a href="/">Структуры реальности</a>
-        <span class="crumb-sep">/</span>
-        <a href="/physics/">Физика</a>
-        <span class="crumb-sep">/</span>
-        <a href="/physics/quantum-physics/">Квантовая физика</a>
-        <span class="crumb-sep">/</span>
-        <span class="crumb-current">Персоналии</span>
-      </h1>
-
-      <!-- <div class="url">thinking-structures.github.io</div> -->
-    </header>
-
-    <main class="prose">
-      <h1>Персоналии</h1>
-
-      <p>
-        Персоналии, связанные с квантовой механикой, декогеренцией,
-        интерпретациями квантовой теории и близкими направлениями.
-      </p>
-
-      {% assign personalities = site.pages
-        | where: "section", "quantum-physics-personalities"
-        | sort: "order" %}
-
-      <ul class="subsections">
-        {% for person in personalities %}
-          <li>
-            <a href="{{ person.url | relative_url }}">{{ person.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <p class="back-link">
-        <a href="/physics/quantum-physics/">← К разделу «Квантовая физика»</a>
-      </p>
-    </main>
-
-  </div>
-</body>
-</html>
+<p>
+  Персоналии, связанные с квантовой механикой, декогеренцией,
+  интерпретациями квантовой теории и близкими направлениями.
+</p>

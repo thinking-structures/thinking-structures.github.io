@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign items = site.pages
+  | where: "section", page.list_section
+  | sort: "order" %}
+
+<ul class="subsections">
+  {% for item in items %}
+    <li>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% if page.back_url %}
+  <p class="back-link">
+    <a href="{{ page.back_url | relative_url }}">← {{ page.back_title }}</a>
+  </p>
+{% endif %}
