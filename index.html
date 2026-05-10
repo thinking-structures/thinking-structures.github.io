@@ -3,173 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Структуры мышления</title>
-  <style>
-    :root {
-      --text: #e8edf3;
-      --muted: #b8c2cf;
-      --paper: #ffffff;
-      --paper-text: #1d2430;
-      --link: #2f6feb;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html,
-    body {
-      min-height: 100%;
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--paper-text);
-      background-color: #f5f7fa;
-      background-image:
-        linear-gradient(180deg, rgba(2, 10, 18, 0.55), rgba(2, 10, 18, 0.85)),
-        url("assets/images/home-wallpaper.png");
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-    }
-
-    .hero {
-      min-height: 100vh;
-      width: 100%;
-      padding: 72px 56px;
-      display: flex;
-      align-items: center;
-      color: var(--text);
-    }
-
-    .hero-inner {
-      max-width: 900px;
-    }
-
-    .hero h1 {
-      margin: 0 0 18px;
-      font-size: clamp(2.3rem, 5vw, 4.5rem);
-      line-height: 1.05;
-      letter-spacing: -0.04em;
-    }
-
-    .hero p {
-      max-width: 760px;
-      margin: 0;
-      font-size: 1.2rem;
-      color: var(--muted);
-    }
-
-    main {
-      max-width: 1040px;
-      margin: 0 auto;
-      padding: 44px 24px 72px;
-    }
-
-    main h2 {
-      color: var(--text);
-      margin-top: 0;
-    }
-
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 22px;
-      margin-top: 24px;
-    }
-
-    .card {
-      padding: 24px;
-      border-radius: 18px;
-      background: var(--paper);
-      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18);
-    }
-
-    .card h3 {
-      margin-top: 0;
-    }
-
-    a {
-      color: var(--link);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    ul {
-      padding-left: 1.25rem;
-    }
-
-    @media (max-width: 640px) {
-      .hero {
-        padding: 48px 24px;
-        align-items: flex-start;
-        padding-top: 80px;
-      }
-
-      .hero h1 {
-        font-size: 2.4rem;
-      }
-
-      .hero p {
-        font-size: 1rem;
-      }
-
-      /* На мобильных fixed-фон работает плохо (особенно iOS) — переключаем на scroll */
-      body {
-        background-attachment: scroll;
-      }
-    }
-  </style>
+  <title>Структуры реальности</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109134516', 'ym');
+    ym(109134516, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/109134516" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Структуры мышления</h1>
+  <div class="page">
+    <header class="topbar">
+      <p class="brand">Структуры реальности</p>
+      <span class="url">thinking-structures.github.io</span>
+    </header>
+
+    <nav class="menu" aria-label="Основные разделы">
+      <a class="tile physics" href="physics/index.html">
+        <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true">
+          <circle cx="50" cy="50" r="20"/>
+          <circle cx="50" cy="50" r="3.5" fill="currentColor"/>
+          <ellipse cx="50" cy="50" rx="42" ry="14" transform="rotate(-30 50 50)"/>
+          <circle cx="86" cy="32" r="3.5" fill="currentColor"/>
+        </svg>
+        <span class="tile-label">Физика</span>
+      </a>
+
+      <a class="tile cognitology" href="cognitology/">
+        <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M50 22 C44 18, 34 19, 30 26 C22 27, 17 35, 22 43 C16 49, 19 60, 27 62 C28 70, 37 76, 46 72 C48 76, 52 76, 50 72"/>
+          <path d="M50 22 C56 18, 66 19, 70 26 C78 27, 83 35, 78 43 C84 49, 81 60, 73 62 C72 70, 63 76, 54 72 C52 76, 48 76, 50 72"/>
+          <path d="M50 22 L50 76"/>
+          <path d="M34 36 C40 38, 40 44, 34 46"/>
+          <path d="M30 54 C36 56, 36 62, 30 64"/>
+          <path d="M66 36 C60 38, 60 44, 66 46"/>
+          <path d="M70 54 C64 56, 64 62, 70 64"/>
+        </svg>
+        <span class="tile-label">Когнитология</span>
+      </a>
+
+      <a class="tile systemology" href="systemology/">
+        <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+          <line x1="50" y1="22" x2="28" y2="50"/>
+          <line x1="50" y1="22" x2="72" y2="50"/>
+          <line x1="28" y1="50" x2="20" y2="78"/>
+          <line x1="28" y1="50" x2="50" y2="78"/>
+          <line x1="72" y1="50" x2="80" y2="78"/>
+          <circle cx="50" cy="22" r="6" fill="currentColor" stroke="none"/>
+          <circle cx="28" cy="50" r="6" fill="currentColor" stroke="none"/>
+          <circle cx="72" cy="50" r="6" fill="currentColor" stroke="none"/>
+          <circle cx="20" cy="78" r="6" fill="currentColor" stroke="none"/>
+          <circle cx="50" cy="78" r="6" fill="currentColor" stroke="none"/>
+          <circle cx="80" cy="78" r="6" fill="currentColor" stroke="none"/>
+        </svg>
+        <span class="tile-label">Системология</span>
+      </a>
+
+      <a class="tile misc" href="misc/">
+        <svg viewBox="0 0 100 100" fill="currentColor" aria-hidden="true">
+          <circle cx="25" cy="25" r="6"/>
+          <circle cx="50" cy="25" r="6"/>
+          <circle cx="75" cy="25" r="6"/>
+          <circle cx="25" cy="50" r="6"/>
+          <circle cx="50" cy="50" r="6"/>
+          <circle cx="75" cy="50" r="6"/>
+          <circle cx="25" cy="75" r="6"/>
+          <circle cx="50" cy="75" r="6"/>
+          <circle cx="75" cy="75" r="6"/>
+        </svg>
+        <span class="tile-label">Разное</span>
+      </a>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-title">Структуры реальности</div>
       <p>Открытый архив эссе, заметок, переводов и исследовательских материалов о научных понятиях, физических теориях и способах описания реальности.</p>
-    </div>
-  </header>
-
-  <main>
-    <h2>Основные разделы</h2>
-
-    <div class="card-grid">
-      <section class="card">
-        <h3><a href="physics/">Физика</a></h3>
-        <ul>
-          <li><a href="physics/quantum-physics/">Квантовая физика</a></li>
-          <li><a href="physics/relational-program/">Реляционная программа</a></li>
-          <li><a href="physics/cosmology/">Космология</a></li>
-          <li><a href="physics/interesting-publications/">Интересные публикации</a></li>
-        </ul>
-      </section>
-
-      <section class="card">
-        <h3><a href="cognitology/">Когнитология</a></h3>
-        <ul>
-          <li><a href="cognitology/neurophysiology/">Нейрофизиология</a></li>
-          <li><a href="cognitology/semiotics/">Семиотика</a></li>
-          <li><a href="cognitology/consciousness/">Сознание</a></li>
-          <li><a href="cognitology/artificial-reason/">Искусственный разум</a></li>
-          <li><a href="cognitology/interesting-publications/">Интересные публикации</a></li>
-        </ul>
-      </section>
-
-      <section class="card">
-        <h3><a href="systemology/">Системология</a></h3>
-        <ul>
-          <li><a href="systemology/personalities/">Персоналии</a></li>
-          <li><a href="systemology/interesting-publications/">Интересные публикации</a></li>
-          <li><a href="systemology/resources/">Ресурсы</a></li>
-        </ul>
-      </section>
-    </div>
-  </main>
+    </section>
+  </div>
 </body>
 </html>
