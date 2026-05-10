@@ -54,3 +54,9 @@ exclude:
   - vendor/
   - "*.log"
   - .gitignore
+defaults:
+  - scope:
+      path: "physics/quantum-physics"
+    values:
+      layout: default
+      page_class: quantum-physics-page
