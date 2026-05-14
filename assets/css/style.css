@@ -57,6 +57,11 @@ body.page-relational-program { --wallpaper: url("../images/relational-program.pn
 body.page-resources          { --wallpaper: url("../images/resources.png");          --page-accent: var(--color-physics); }
 body.page-semiotics          { --wallpaper: url("../images/semiotics.png");          --page-accent: var(--color-cognitology); }
 
+/* ---- новые подразделы системологии ---- */
+body.page-self-organization  { --wallpaper: url("../images/self-organization.png"); --page-accent: var(--color-systemology); }
+body.page-emergence          { --wallpaper: url("../images/emergence.png");         --page-accent: var(--color-systemology); }
+body.page-complex-systems    { --wallpaper: url("../images/complex_systems.png");   --page-accent: var(--color-systemology); }
+
 /* ---- лента карточек внешних ресурсов ---- */
 .resource-list {
   list-style: none;
@@ -330,15 +335,12 @@ body.page-semiotics          { --wallpaper: url("../images/semiotics.png");     
 
 /* ---------- адаптив ---------- */
 
-/* Страницы разделов содержат больше плиток (5-6),
-   на десктопе им удобнее 3 колонки, а не 4. */
 @media (min-width: 981px) {
   body.page-physics .menu,
   body.page-systemology .menu,
   body.page-misc .menu {
     grid-template-columns: repeat(3, 1fr);
   }
-  /* Когнитология: 7 плиток, 4 колонки (4+3) */
   body.page-cognitology .menu {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -397,4 +399,85 @@ body.page-semiotics          { --wallpaper: url("../images/semiotics.png");     
   body {
     background-attachment: scroll;
   }
+}
+
+/* ============================================================
+   Стили для статей / эссе
+   ============================================================ */
+
+.prose .article-subtitle {
+  font-size: 1.2rem;
+  color: var(--muted);
+  margin: -0.5em 0 2em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.prose .article-meta {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-bottom: 2.2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--separator);
+  opacity: 0.75;
+}
+
+/* Иллюстрации */
+.prose figure {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.prose .figure-row {
+  display: flex;
+  gap: 16px;
+  margin: 2em 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prose .figure-row figure {
+  flex: 1;
+  min-width: 180px;
+  max-width: 320px;
+  margin: 0;
+}
+
+.prose figure img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--tile-border);
+  display: block;
+  margin: 0 auto;
+}
+
+.prose figcaption {
+  margin-top: 0.6em;
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.45;
+}
+
+/* Примечания / aside */
+.prose .note {
+  padding: 0.9em 1.25em;
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid var(--page-accent, rgba(255, 255, 255, 0.3));
+  border-radius: 0 8px 8px 0;
+  margin: 1.6em 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.prose .note strong {
+  color: var(--text);
+}
+
+/* Плитка «статья готовится» */
+.tile.coming-soon {
+  opacity: 0.45;
+  cursor: default;
+  pointer-events: none;
 }
