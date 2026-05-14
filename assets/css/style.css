@@ -22,7 +22,7 @@
   --color-title:       #ffd166;  /* акцент для главного заголовка */
 
   /* ---- обои ---- */
-  --wallpaper:         url("../images/home-wallpaper.png");
+  --wallpaper:         url("../images/wallpaper.png");
 }
 
 * { box-sizing: border-box; }
