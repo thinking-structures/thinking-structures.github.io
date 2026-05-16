@@ -5,6 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Системология — Структуры реальности</title>
   <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .section-layout {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 24px;
+      margin: 32px 0 48px;
+      align-items: start;
+    }
+
+    .section-main-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .section-main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .section-side {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .side-item {
+      display: block;
+      padding: 14px 18px;
+      background: var(--tile-bg);
+      border: 1px solid var(--tile-border);
+      border-radius: 12px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.98rem;
+      font-weight: 500;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .side-item:hover {
+      background: var(--tile-bg-hover);
+      border-color: var(--page-accent, rgba(255,255,255,0.4));
+      transform: translateX(3px);
+      text-decoration: none;
+    }
+
+    .row-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      opacity: 0.6;
+      margin-bottom: 2px;
+    }
+
+    @media (max-width: 980px) {
+      .section-layout {
+        grid-template-columns: 1fr;
+      }
+      .section-main {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .section-main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -27,53 +100,86 @@
       <span class="url">thinking-structures.github.io</span>
     </header>
 
-    <nav class="menu" aria-label="Разделы системологии">
-
-      <a class="tile systemology" href="self-organization/index.html">
-        <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <!-- Цикл из четырёх стрелок — самоорганизация -->
-          <path d="M 50 18 A 32 32 0 0 1 82 50"/>
-          <polyline points="79,42 82,50 74,52"/>
-          <path d="M 82 50 A 32 32 0 0 1 50 82"/>
-          <polyline points="58,79 50,82 50,74"/>
-          <path d="M 50 82 A 32 32 0 0 1 18 50"/>
-          <polyline points="21,58 18,50 26,48"/>
-          <path d="M 18 50 A 32 32 0 0 1 50 18"/>
-          <polyline points="42,21 50,18 50,26"/>
-        </svg>
-        <span class="tile-label">Самоорганизация</span>
-      </a>
-
-      <a class="tile systemology" href="interesting-publications/index.html">
-        <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true">
-          <path d="M20 28 L20 80 L50 76 L80 80 L80 28 L50 24 L20 28 Z"/>
-          <line x1="50" y1="24" x2="50" y2="76"/>
-          <line x1="28" y1="40" x2="44" y2="38"/>
-          <line x1="28" y1="50" x2="44" y2="48"/>
-          <line x1="28" y1="60" x2="44" y2="58"/>
-          <line x1="56" y1="38" x2="72" y2="40"/>
-          <line x1="56" y1="48" x2="72" y2="50"/>
-          <line x1="56" y1="58" x2="72" y2="60"/>
-        </svg>
-        <span class="tile-label">Интересные публикации</span>
-      </a>
-
-    </nav>
-
     <section class="hero">
       <div class="hero-title">Системология</div>
     </section>
 
     <article class="prose">
-      <p>Раздел посвящён системному описанию реальности: принципам организации сложных систем, самоорганизации и эмерджентности, стигмергии и распределённому вычислению, морфогенетическим алгоритмам. Объединяющий мотив — вопрос о том, где и как возникает структура: внутри системы или на её границе со средой.</p>
-
-      <h2>Подразделы</h2>
-
-      <ul class="subsections">
-        <li><a href="self-organization/index.html">Самоорганизация</a> — глобальная форма из локальных правил. Эмерджентность, стигмергия, морфогенетические алгоритмы, распределённые вычисления без центрального плана.</li>
-        <li><a href="interesting-publications/index.html">Интересные публикации</a> — статьи и работы, заслуживающие отдельного указания.</li>
-      </ul>
+      <p>Раздел посвящён системному описанию реальности в рамках общей теории систем, кибернетики и синергетики. Объединяющая рамка — триада структуры, функции, флуктуации.</p>
     </article>
+
+    <div class="section-layout">
+
+      <div class="section-main-wrapper">
+
+        <!-- Ряд 1: методологическая рамка -->
+        <div>
+          <p class="row-label">Рамка</p>
+          <nav class="section-main" aria-label="Методологическая рамка">
+            <a href="structures/index.html" class="article-card">
+              <span class="article-card-title">Структуры</span>
+              <span class="article-card-desc">Организация отношений. Диссипативные структуры. Морфология систем.</span>
+            </a>
+            <a href="functions/index.html" class="article-card">
+              <span class="article-card-title">Функции</span>
+              <span class="article-card-desc">Функциональная организация. Обратные связи. Аутопоэз.</span>
+            </a>
+            <a href="fluctuations/index.html" class="article-card">
+              <span class="article-card-title">Флуктуации</span>
+              <span class="article-card-desc">Случайные отклонения как источник новизны. Необратимость. Бифуркации.</span>
+            </a>
+          </nav>
+        </div>
+
+        <!-- Ряд 2 -->
+        <div>
+          <p class="row-label">Концепции и подходы</p>
+          <nav class="section-main" aria-label="Концепции и подходы">
+            <a href="levels-of-reality/index.html" class="article-card">
+              <span class="article-card-title">Уровни реальности</span>
+              <span class="article-card-desc">Иерархия уровней. Нисходящая причинность. Уровни описания.</span>
+            </a>
+            <a href="emergence/index.html" class="article-card">
+              <span class="article-card-title">Эмерджентность</span>
+              <span class="article-card-desc">Возникновение новых свойств из организации взаимодействий.</span>
+            </a>
+            <a href="self-organization/index.html" class="article-card">
+              <span class="article-card-title">Самоорганизация</span>
+              <span class="article-card-desc">Глобальная форма из локальных правил. Стигмергия. Морфогенез.</span>
+            </a>
+          </nav>
+        </div>
+
+        <!-- Ряд 3 -->
+        <div>
+          <p class="row-label">Явления и механизмы</p>
+          <nav class="section-main" aria-label="Явления и механизмы">
+            <a href="stability/index.html" class="article-card">
+              <span class="article-card-title">Устойчивость</span>
+              <span class="article-card-desc">Аттракторы. Ультрастабильность. Бифуркации и переходы между режимами.</span>
+            </a>
+            <a href="dynamical-systems/index.html" class="article-card">
+              <span class="article-card-title">Динамические системы</span>
+              <span class="article-card-desc">Теория хаоса. Аттракторы. Нелинейная динамика. Параметры порядка.</span>
+            </a>
+            <a href="critical-phenomena/index.html" class="article-card">
+              <span class="article-card-title">Критические явления</span>
+              <span class="article-card-desc">Фазовые переходы. Универсальность. Самоорганизованная критичность.</span>
+            </a>
+          </nav>
+        </div>
+
+      </div>
+
+      <!-- Правый фрейм: сервисные разделы -->
+      <nav class="section-side" aria-label="Сервисные разделы">
+        <a href="interesting-publications/index.html" class="side-item">Интересные публикации</a>
+        <a href="personalities/index.html" class="side-item">Персоналии</a>
+        <a href="resources/index.html" class="side-item">Ресурсы</a>
+      </nav>
+
+    </div>
+
   </div>
 </body>
 </html>

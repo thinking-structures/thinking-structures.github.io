@@ -1,0 +1,131 @@
+---
+layout: null
+permalink: /404.html
+---
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Раздел готовится — Структуры реальности</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .construction-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      gap: 32px;
+    }
+
+    .construction-icon {
+      width: 80px;
+      height: 80px;
+      opacity: 0.35;
+      color: var(--color-title);
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50%       { opacity: 0.55; transform: scale(1.05); }
+    }
+
+    .construction-title {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--color-title);
+      margin: 0;
+      line-height: 1.1;
+    }
+
+    .construction-sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin: 0;
+      max-width: 480px;
+      line-height: 1.6;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 28px;
+      background: var(--tile-bg);
+      border: 1px solid var(--tile-border);
+      border-radius: 12px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+      cursor: pointer;
+      background: none;
+      border: 1px solid var(--tile-border);
+    }
+
+    .back-btn:hover {
+      background: var(--tile-bg-hover);
+      border-color: rgba(255,255,255,0.4);
+      transform: translateX(-3px);
+      text-decoration: none;
+    }
+
+    .back-btn svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+  </style>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109134516', 'ym');
+    ym(109134516, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/109134516" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <p class="brand">
+        <a href="/">Структуры реальности</a>
+      </p>
+      <span class="url">thinking-structures.github.io</span>
+    </header>
+
+    <div class="construction-wrap">
+
+      <svg class="construction-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="32" cy="32" r="28"/>
+        <path d="M32 20v12l7 7"/>
+        <path d="M18 11l3 3M46 11l-3 3M10 32h4M50 32h4M18 53l3-3M46 53l-3-3"/>
+      </svg>
+
+      <h1 class="construction-title">Раздел готовится</h1>
+
+      <p class="construction-sub">Материалы для этого раздела находятся в подготовке.</p>
+
+      <button class="back-btn" onclick="history.back()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 5l-7 7 7 7"/>
+        </svg>
+        Назад
+      </button>
+
+    </div>
+  </div>
+</body>
+</html>
