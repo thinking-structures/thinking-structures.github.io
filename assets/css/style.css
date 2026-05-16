@@ -555,3 +555,113 @@ body.page-complex-systems    { --wallpaper: url("../images/complex_systems.png")
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================================
+   Двухколоночный макет раздела (section-layout)
+   ============================================================ */
+
+.section-layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  margin: 32px 0 48px;
+  align-items: start;
+}
+
+.section-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.section-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.section-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-item {
+  display: block;
+  padding: 14px 18px;
+  background: var(--tile-bg);
+  border: 1px solid var(--tile-border);
+  border-radius: 12px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.98rem;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.side-item:hover {
+  background: var(--tile-bg-hover);
+  border-color: var(--page-accent, rgba(255,255,255,0.4));
+  transform: translateX(3px);
+  text-decoration: none;
+}
+
+.row-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  opacity: 0.6;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 980px) {
+  .section-layout {
+    grid-template-columns: 1fr;
+  }
+  .section-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .section-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   Компактный список навигации (menu-list / menu-item)
+   ============================================================ */
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 480px;
+  margin: 32px 0 0;
+}
+
+.menu-item {
+  display: block;
+  padding: 14px 20px;
+  background: var(--tile-bg);
+  border: 1px solid var(--tile-border);
+  border-radius: 12px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.menu-item:hover {
+  background: var(--tile-bg-hover);
+  border-color: var(--page-accent, rgba(255,255,255,0.4));
+  transform: translateX(4px);
+  text-decoration: none;
+}

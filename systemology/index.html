@@ -5,79 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Системология — Структуры реальности</title>
   <link rel="stylesheet" href="../assets/css/style.css">
-  <style>
-    .section-layout {
-      display: grid;
-      grid-template-columns: 1fr 280px;
-      gap: 24px;
-      margin: 32px 0 48px;
-      align-items: start;
-    }
-
-    .section-main-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-
-    .section-main {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-    }
-
-    .section-side {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .side-item {
-      display: block;
-      padding: 14px 18px;
-      background: var(--tile-bg);
-      border: 1px solid var(--tile-border);
-      border-radius: 12px;
-      color: var(--text);
-      text-decoration: none;
-      font-size: 0.98rem;
-      font-weight: 500;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-    }
-
-    .side-item:hover {
-      background: var(--tile-bg-hover);
-      border-color: var(--page-accent, rgba(255,255,255,0.4));
-      transform: translateX(3px);
-      text-decoration: none;
-    }
-
-    .row-label {
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      opacity: 0.6;
-      margin-bottom: 2px;
-    }
-
-    @media (max-width: 980px) {
-      .section-layout {
-        grid-template-columns: 1fr;
-      }
-      .section-main {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 640px) {
-      .section-main {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -115,7 +42,7 @@
         <!-- Ряд 1: методологическая рамка -->
         <div>
           <p class="row-label">Рамка</p>
-          <nav class="section-main" aria-label="Методологическая рамка">
+            <nav class="section-main" aria-label="Методологическая рамка"> 
             <a href="structures/index.html" class="article-card">
               <span class="article-card-title">Структуры</span>
               <span class="article-card-desc">Организация отношений. Диссипативные структуры. Морфология систем.</span>
@@ -129,11 +56,11 @@
               <span class="article-card-desc">Случайные отклонения как источник новизны. Необратимость. Бифуркации.</span>
             </a>
           </nav>
-        </div>
+        </div> 
 
         <!-- Ряд 2 -->
         <div>
-          <p class="row-label">Концепции и подходы</p>
+          <p class="row-label">Концепции и подходы</p> 
           <nav class="section-main" aria-label="Концепции и подходы">
             <a href="levels-of-reality/index.html" class="article-card">
               <span class="article-card-title">Уровни реальности</span>
@@ -152,7 +79,7 @@
 
         <!-- Ряд 3 -->
         <div>
-          <p class="row-label">Явления и механизмы</p>
+          <p class="row-label">Явления и механизмы</p> 
           <nav class="section-main" aria-label="Явления и механизмы">
             <a href="stability/index.html" class="article-card">
               <span class="article-card-title">Устойчивость</span>
