@@ -14,12 +14,13 @@
   --tile-border:       rgba(255, 255, 255, 0.12);
   --separator:         rgba(255, 255, 255, 0.18);
 
-  --color-physics:     #7aa7ff;
-  --color-cognitology: #e88aa8;
-  --color-systemology: #6fd6a6;
-  --color-misc:        #f0b56a;
+  --color-physics:      #7aa7ff;
+  --color-cognitology:  #e88aa8;
+  --color-epistemology: #e8c96d;
+  --color-systemology:  #6fd6a6;
+  --color-misc:         #f0b56a;
 
-  --color-title:       #ffd166;  /* акцент для главного заголовка */
+  --color-title:        #ffd166;  /* акцент для главного заголовка */
 
   /* ---- обои ---- */
   --wallpaper:         url("../images/wallpaper.png");
@@ -47,6 +48,7 @@ body {
 /* ---- обои для разделов ---- */
 body.page-physics     { --wallpaper: url("../images/physics.png");     --page-accent: var(--color-physics); }
 body.page-cognitology { --wallpaper: url("../images/cognitology.png"); --page-accent: var(--color-cognitology); }
+body.page-epistemology { --wallpaper: url("../images/epistemology.png"); --page-accent: var(--color-epistemology); }
 body.page-systemology { --wallpaper: url("../images/systemology.png"); --page-accent: var(--color-systemology); }
 body.page-misc        { --wallpaper: url("../images/misc.png");        --page-accent: var(--color-misc); }
 
