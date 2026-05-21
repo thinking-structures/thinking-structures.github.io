@@ -665,3 +665,28 @@ body.page-complex-systems    { --wallpaper: url("../images/complex_systems.png")
   transform: translateX(4px);
   text-decoration: none;
 }
+
+.figure-box {
+  margin: 2em auto;
+  padding: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  text-align: center;
+  max-width: 720px;
+}
+
+.figure-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.figure-box figcaption {
+  margin-top: 10px;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.55;
+  font-style: italic;
+  text-align: left;
+}
