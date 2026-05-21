@@ -690,3 +690,17 @@ body.page-complex-systems    { --wallpaper: url("../images/complex_systems.png")
   font-style: italic;
   text-align: left;
 }
+
+body.page-article {
+  --bg: #f5f0e8;
+  --text: #1e1e2e;
+  --muted: #4c4f69;
+  --separator: rgba(0,0,0,0.15);
+  --tile-bg: rgba(0,0,0,0.06);
+  --tile-border: rgba(0,0,0,0.12);
+  --tile-bg-hover: rgba(0,0,0,0.10);
+  --color-title: #1e1e2e;
+  --page-accent: #7287fd;
+  background: #f5f0e8;
+  background-image: none !important;
+}
