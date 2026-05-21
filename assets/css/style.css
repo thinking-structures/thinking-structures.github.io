@@ -48,8 +48,11 @@ body {
 /* ---- обои для разделов ---- */
 body.page-physics     { --wallpaper: url("../images/physics.png");     --page-accent: var(--color-physics); }
 body.page-cognitology { --wallpaper: url("../images/cognitology.png"); --page-accent: var(--color-cognitology); }
+body.page-neuropsychology { --wallpaper: url("../images/neuropsychology.png"); --page-accent: var(--color-cognitology); }
+body.page-consciousness { --wallpaper: url("../images/consciousness.png"); --page-accent: var(--color-cognitology); }
 body.page-epistemology { --wallpaper: url("../images/epistemology.png"); --page-accent: var(--color-epistemology); }
 body.page-systemology { --wallpaper: url("../images/systemology.png"); --page-accent: var(--color-systemology); }
+body.page-artificial-reason { --wallpaper: url("../images/artificial-reason.png"); --page-accent: var(--color-cognitology); }
 body.page-misc        { --wallpaper: url("../images/misc.png");        --page-accent: var(--color-misc); }
 
 /* ---- обои для подразделов ---- */
