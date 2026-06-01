@@ -714,3 +714,79 @@ body.page-article {
 .article-card-empty {
   visibility: hidden;
 }
+
+/* ---- вступительное эссе «О проекте» на главной ---- */
+.intro-essay {
+  margin-top: 8px;
+}
+
+.intro-essay h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 1.8em 0 0.7em;
+}
+
+.intro-essay h2:first-child {
+  margin-top: 0;
+}
+
+/* ---- фигура персонажа на полях (Вечеровский и др.) ---- */
+.margin-figure {
+  width: 200px;
+  margin: 0 0 1.2em 1.8em;   /* справа: отступ слева от текста */
+  float: right;
+  text-align: center;
+}
+
+.margin-figure--left {
+  float: left;
+  margin: 0 1.8em 1.2em 0;
+}
+
+.margin-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  background: #f5f0e8;          /* кремовая подложка под персонажа */
+}
+
+.margin-figure__note {
+  margin: 0.5em 0 0;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.margin-figure__note a {
+  font-style: normal;
+}
+
+/* реплика персонажа без портрета — просто голос на полях */
+.margin-quote {
+  float: right;
+  width: 220px;
+  margin: 0 0 1.2em 1.8em;
+  padding: 14px 16px;
+  font-style: italic;
+  color: var(--muted);
+  border-left: 2px solid var(--page-accent, rgba(255,255,255,0.3));
+  background: rgba(255,255,255,0.03);
+  border-radius: 0 12px 12px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* на узких экранах — не обтекать, ставить по центру между абзацами */
+@media (max-width: 640px) {
+  .margin-figure,
+  .margin-figure--left,
+  .margin-quote {
+    float: none;
+    width: 60%;
+    max-width: 240px;
+    margin: 1.2em auto;
+  }
+}
