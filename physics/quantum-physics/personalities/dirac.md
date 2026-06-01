@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/dirac/
 section: quantum-physics-personalities
 order: 90
 body_class: page-quantum-physics
+era: "founders"
 initials: "ПД"
 years: "1902–1984"
 field: "Релятивистская квантовая механика, квантовая электродинамика"

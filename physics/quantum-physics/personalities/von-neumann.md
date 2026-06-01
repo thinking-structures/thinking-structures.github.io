@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/von-neumann/
 section: quantum-physics-personalities
 order: 100
 body_class: page-quantum-physics
+era: "founders"
 initials: "фН"
 years: "1903–1957"
 field: "Математические основания КМ, теория измерения"

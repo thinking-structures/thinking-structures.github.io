@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/pauli/
 section: quantum-physics-personalities
 order: 80
 body_class: page-quantum-physics
+era: "founders"
 initials: "ВП"
 years: "1900–1958"
 field: "Принцип запрета, спин, квантовая теория поля"

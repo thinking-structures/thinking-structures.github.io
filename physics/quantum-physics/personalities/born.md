@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/born/
 section: quantum-physics-personalities
 order: 50
 body_class: page-quantum-physics
+era: "founders"
 initials: "МБ"
 years: "1882–1970"
 field: "Матричная механика, вероятностная интерпретация волновой функции"

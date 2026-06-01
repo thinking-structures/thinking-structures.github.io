@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/heisenberg/
 section: quantum-physics-personalities
 order: 60
 body_class: page-quantum-physics
+era: "founders"
 initials: "ВГ"
 years: "1901–1976"
 field: "Матричная механика, принцип неопределённости"

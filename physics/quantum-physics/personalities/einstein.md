@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/einstein/
 section: quantum-physics-personalities
 order: 20
 body_class: page-quantum-physics
+era: "founders"
 initials: "АЭ"
 years: "1879–1955"
 field: "Теория относительности, квантовая теория света, основания КМ"

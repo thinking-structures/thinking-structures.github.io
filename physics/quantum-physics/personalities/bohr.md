@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/bohr/
 section: quantum-physics-personalities
 order: 30
 body_class: page-quantum-physics
+era: "founders"
 initials: "НБ"
 years: "1885–1962"
 field: "Строение атома, копенгагенская интерпретация, принцип дополнительности"

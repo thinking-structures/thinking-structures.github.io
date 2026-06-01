@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/rosenfeld/
 section: quantum-physics-personalities
 order: 110
 body_class: page-quantum-physics
+era: "successors"
 initials: "ЛР"
 years: "1904–1974"
 field: "Основания КМ, квантовая теория поля, защита копенгагенской ортодоксии"

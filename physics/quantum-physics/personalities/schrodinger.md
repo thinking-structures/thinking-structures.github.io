@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/schrodinger/
 section: quantum-physics-personalities
 order: 70
 body_class: page-quantum-physics
+era: "founders"
 initials: "ЭШ"
 years: "1887–1961"
 field: "Волновая механика, уравнение Шрёдингера, основания КМ"

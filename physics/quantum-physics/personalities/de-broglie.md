@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/de-broglie/
 section: quantum-physics-personalities
 order: 40
 body_class: page-quantum-physics
+era: "founders"
 initials: "ЛБ"
 years: "1892–1987"
 field: "Волны материи, теория волны-пилота"
