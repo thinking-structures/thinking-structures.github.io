@@ -5,37 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Квантовая физика — Структуры реальности</title>
   <link rel="stylesheet" href="../../assets/css/style.css">
-  <style>
-    .menu-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      max-width: 480px;
-      margin: 32px 0 0;
-    }
-
-    .menu-item {
-      display: block;
-      padding: 14px 20px;
-      background: var(--tile-bg);
-      border: 1px solid var(--tile-border);
-      border-radius: 12px;
-      color: var(--text);
-      text-decoration: none;
-      font-size: 1.05rem;
-      font-weight: 500;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-    }
-
-    .menu-item:hover {
-      background: var(--tile-bg-hover);
-      border-color: var(--page-accent, rgba(255,255,255,0.4));
-      transform: translateX(4px);
-      text-decoration: none;
-    }
-  </style>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -66,17 +35,36 @@
       <p>Материалы по основаниям квантовой механики, декогеренции, проблеме измерения, указательным состояниям, квантовой классичности и альтернативным формулировкам КМ.</p>
     </article>
 
-    <nav class="menu-list">
-      <a href="qt/index.html" class="menu-item">Квантовая теория (QT)</a>
-      <a href="qlog/index.html" class="menu-item">Квантовая логика (QLOG)</a>
-      <a href="qc/index.html" class="menu-item">Квантовые вычисления (QC)</a>
-      <a href="personalities/" class="menu-item">Персоналии</a>
-      <a href="interesting-publications/" class="menu-item">Интересные публикации</a>
-    </nav>
+    <div class="section-layout">
+
+      <div class="section-main-wrapper">
+        <nav class="section-main" aria-label="Разделы квантовой физики">
+          <a href="qt/index.html" class="article-card">
+            <span class="article-card-title">Квантовая теория (QT)</span>
+            <span class="article-card-desc">Основания квантовой механики, интерпретации, декогеренция, проблема измерения, указательные состояния.</span>
+          </a>
+          <a href="qlog/index.html" class="article-card">
+            <span class="article-card-title">Квантовая логика (QLOG)</span>
+            <span class="article-card-desc">Решёточная структура квантовых высказываний, неклассические логики, ортомодулярность.</span>
+          </a>
+          <a href="qc/index.html" class="article-card">
+            <span class="article-card-title">Квантовые вычисления (QC)</span>
+            <span class="article-card-desc">Кубиты, алгоритмы, квантовая коррекция ошибок, томография, квантовая информация.</span>
+          </a>
+        </nav>
+      </div>
+
+      <nav class="section-side" aria-label="Сервисные разделы">
+        <a href="personalities/index.html" class="side-item">Персоналии</a>
+        <a href="interesting-publications/index.html" class="side-item">Интересные публикации</a>
+      </nav>
+
+    </div>
 
     <article class="prose">
       <p class="back-link"><a href="../index.html">← Физика</a></p>
     </article>
+
   </div>
 </body>
 </html>

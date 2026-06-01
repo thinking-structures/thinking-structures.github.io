@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Структуры реальности</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    .person-box {
+      display: flex; gap: 24px; align-items: flex-start;
+      padding: 22px; margin: 0 0 28px;
+      background: var(--tile-bg, rgba(255,255,255,0.04));
+      border: 1px solid var(--tile-border, rgba(255,255,255,0.12));
+      border-radius: 16px; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    }
+    .person-box-photo {
+      flex-shrink: 0; width: 150px; height: 150px; border-radius: 12px; overflow: hidden;
+      background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center;
+    }
+    .person-box-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .person-box-photo--empty { background: linear-gradient(135deg, var(--page-accent, #4a5a7a), rgba(0,0,0,0.5)); }
+    .person-box-photo--empty::after { content: attr(data-initials); color: var(--text); font-size: 2.2rem; font-weight: 600; }
+    .person-box-info { flex: 1; min-width: 0; }
+    .person-box-name { font-size: 1.5rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; color: var(--text); margin: 0 0 2px; }
+    .person-box-years { font-size: 1rem; color: var(--muted); margin: 0 0 16px; }
+    .person-box-meta { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--tile-border, rgba(255,255,255,0.12)); padding-top: 14px; }
+    .person-box-meta li { display: flex; gap: 10px; font-size: 0.92rem; line-height: 1.7; }
+    .person-box-meta .k { color: var(--muted); min-width: 110px; flex-shrink: 0; }
+    .person-box-meta .v { color: var(--text); }
+    @media (max-width: 640px) { .person-box { flex-direction: column; gap: 16px; } .person-box-photo { width: 130px; height: 130px; align-self: flex-start; } }
+  </style>
+</head>
+<body class="{{ page.body_class }}">
+  <div class="page">
+
+    <header class="topbar">
+      <h1 class="brand">
+        <a href="{{ '/' | relative_url }}">Структуры реальности</a>{% for item in page.breadcrumbs %}<span class="crumb-sep">/</span>{% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}<span class="crumb-current">{{ item.title }}</span>{% endif %}{% endfor %}
+      </h1>
+    </header>
+
+    <main class="prose">
+
+      <div class="person-box">
+        <div class="person-box-photo">{% if page.portrait %}{% if page.portrait contains "http" %}<img src="{{ page.portrait }}" alt="{{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('person-box-photo--empty');this.parentNode.setAttribute('data-initials','{{ page.initials }}');">{% else %}<img src="{{ page.portrait }}" alt="{{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('person-box-photo--empty');this.parentNode.setAttribute('data-initials','{{ page.initials }}');">{% endif %}{% else %}<span style="color:var(--text);font-size:2.2rem;font-weight:600;">{{ page.initials }}</span>{% endif %}</div>
+        <div class="person-box-info">
+          <p class="person-box-name">{{ page.title }}</p>
+          {% if page.years %}<p class="person-box-years">{{ page.years }}</p>{% endif %}
+          <ul class="person-box-meta">
+            {% if page.field %}<li><span class="k">Область</span><span class="v">{{ page.field }}</span></li>{% endif %}
+            {% if page.affiliation %}<li><span class="k">Аффилиация</span><span class="v">{{ page.affiliation }}</span></li>{% endif %}
+            {% if page.contribution %}<li><span class="k">Вклад</span><span class="v">{{ page.contribution }}</span></li>{% endif %}
+          </ul>
+        </div>
+      </div>
+
+      {{ content }}
+
+    </main>
+
+  </div>
+</body>
+</html>
