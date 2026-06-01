@@ -1,10 +1,17 @@
 ---
 layout: ts-page
-title: "Durrer — The Cosmic Microwave Background"
+title: "The Cosmic Microwave Background"
+title_ru: "Реликтовое излучение"
 permalink: /physics/cosmology/observational-cosmology/lcdm-canon/durrer/
 section: lcdm-canon
 order: 60
 body_class: page-lcdm-canon
+author: "Ruth Durrer"
+biblio: "Cambridge University Press, 2-е изд., 2020. ISBN 978-1-107-13522-2. 471 с."
+cover: "https://assets.cambridge.org/97811071/35222/cover/9781107135222.jpg"
+cover_label: "Durrer"
+register: "Рабочая монография"
+annotation: "Специализированный референс по физике реликта: спектр, поляризация, теория переноса. Для тех, кто лезет в CMB всерьёз."
 breadcrumbs:
   - title: "Физика"
     url: /physics/
@@ -14,17 +21,15 @@ breadcrumbs:
     url: /physics/cosmology/observational-cosmology/
   - title: "Канон ΛCDM"
     url: /physics/cosmology/observational-cosmology/lcdm-canon/
-  - title: "Durrer — The Cosmic Microwave Background"
+  - title: "The Cosmic Microwave Background"
 ---
 
-# Durrer, «The Cosmic Microwave Background»
+# The Cosmic Microwave Background
 
-**Ruth Durrer**, 2-е изд., Cambridge University Press, 2020.
+*Реликтовое излучение*
 
-Специализированный референс по физике реликтового излучения — строгий,
-для тех, кто лезет в CMB всерьёз: спектр, поляризация, теория переноса
-излучения, связь с космологическими параметрами.
+**Ruth Durrer** — Cambridge University Press, 2-е изд., 2020. ISBN 978-1-107-13522-2. 471 с.
 
-**Регистр:** рабочая монография по узлу (CMB).
+Специализированный референс по физике реликта: спектр, поляризация, теория переноса. Для тех, кто лезет в CMB всерьёз.
 
 [Страница издателя ↗](https://www.cambridge.org/9781107135222)

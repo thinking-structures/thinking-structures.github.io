@@ -1,10 +1,17 @@
 ---
 layout: ts-page
-title: "Lyth & Liddle — The Primordial Density Perturbation"
+title: "The Primordial Density Perturbation"
+title_ru: "Первичные возмущения плотности"
 permalink: /physics/cosmology/observational-cosmology/lcdm-canon/lyth-liddle/
 section: lcdm-canon
 order: 40
 body_class: page-lcdm-canon
+author: "David H. Lyth, Andrew R. Liddle"
+biblio: "Cambridge University Press, 2009. ISBN 978-0-521-82849-9. 516 с."
+cover: "https://assets.cambridge.org/97805218/28499/cover/9780521828499.jpg"
+cover_label: "Lyth–Liddle"
+register: "Рабочая монография"
+annotation: "Первичные возмущения, инфляция, наблюдательные следствия. Содержит «границу Лита», режущую класс инфляционных моделей данными."
 breadcrumbs:
   - title: "Физика"
     url: /physics/
@@ -14,18 +21,15 @@ breadcrumbs:
     url: /physics/cosmology/observational-cosmology/
   - title: "Канон ΛCDM"
     url: /physics/cosmology/observational-cosmology/lcdm-canon/
-  - title: "Lyth & Liddle — The Primordial Density Perturbation"
+  - title: "The Primordial Density Perturbation"
 ---
 
-# Lyth & Liddle, «The Primordial Density Perturbation»
+# The Primordial Density Perturbation
 
-**David H. Lyth, Andrew R. Liddle**, Cambridge University Press, 2009.
+*Первичные возмущения плотности*
 
-Первичные возмущения, инфляция, наблюдательные следствия. Монография дуэта
-Ланкастер–Сассекс. Содержит «границу Лита» (Lyth bound), связывающую
-тензорно-скалярное отношение возмущений с вариацией поля инфлатона —
-инструмент, которым целый класс инфляционных моделей режется данными.
+**David H. Lyth, Andrew R. Liddle** — Cambridge University Press, 2009. ISBN 978-0-521-82849-9. 516 с.
 
-**Регистр:** рабочая монография по узлу (ранняя Вселенная, возмущения).
+Первичные возмущения, инфляция, наблюдательные следствия. Содержит «границу Лита», режущую класс инфляционных моделей данными.
 
 [Страница издателя ↗](https://www.cambridge.org/9780521828499)
