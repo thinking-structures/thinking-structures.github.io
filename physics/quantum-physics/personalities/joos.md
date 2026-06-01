@@ -3,8 +3,8 @@ layout: tsb-person
 title: "Йоос, Эрих"
 permalink: /physics/quantum-physics/personalities/joos/
 section: quantum-physics-personalities
-order: 150
-era: "successors"
+order: 201
+era: "contemporaries"
 body_class: page-quantum-physics
 initials: "ЭЙ"
 years: "р. 1951"
