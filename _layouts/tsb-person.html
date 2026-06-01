@@ -59,5 +59,19 @@
     </main>
 
   </div>
+
+  <script>
+    // Внешние ссылки открываются в новой вкладке
+    (function () {
+      var here = location.hostname;
+      var links = document.querySelectorAll('a[href^="http"]');
+      for (var i = 0; i < links.length; i++) {
+        if (links[i].hostname !== here) {
+          links[i].setAttribute('target', '_blank');
+          links[i].setAttribute('rel', 'noopener');
+        }
+      }
+    })();
+  </script>
 </body>
 </html>
