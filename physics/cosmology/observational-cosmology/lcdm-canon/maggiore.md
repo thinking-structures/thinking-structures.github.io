@@ -1,16 +1,19 @@
 ---
-layout: ts-page
+layout: tsb-page
 title: "Gravitational Waves, Vol. 1: Theory and Experiments"
-title_ru: "Гравитационные волны, т. 1"
+title_ru: "Гравитационные волны, т. 1: теория и эксперименты"
 permalink: /physics/cosmology/observational-cosmology/lcdm-canon/maggiore/
 section: lcdm-canon
-order: 80
+order: 50
 body_class: page-lcdm-canon
 author: "Michele Maggiore"
-biblio: "Oxford University Press, 2008. ISBN 978-0-19-857074-5. 572 с."
+publisher: "Oxford University Press"
+year: "2008"
+isbn: "978-0-19-857074-5"
+pages: "572 с."
 cover_label: "Maggiore"
 register: "Рабочая монография"
-annotation: "Эталонная монография по гравитационным волнам: теория и эксперимент. Логичный сосед инфляционной полки через тензорную моду."
+annotation: "Эталонная монография по гравитационным волнам: теория и эксперимент. Том 1 — основания. Логичный сосед инфляционной полки через тензорную моду и первичные гравитационные волны (см. границу Лита у Lyth–Liddle)."
 breadcrumbs:
   - title: "Физика"
     url: /physics/
@@ -23,12 +26,6 @@ breadcrumbs:
   - title: "Gravitational Waves, Vol. 1: Theory and Experiments"
 ---
 
-# Gravitational Waves, Vol. 1: Theory and Experiments
-
-*Гравитационные волны, т. 1*
-
-**Michele Maggiore** — Oxford University Press, 2008. ISBN 978-0-19-857074-5. 572 с.
-
-Эталонная монография по гравитационным волнам: теория и эксперимент. Логичный сосед инфляционной полки через тензорную моду.
+Эталонная монография по гравитационным волнам: теория и эксперимент. Том 1 — основания. Логичный сосед инфляционной полки через тензорную моду и первичные гравитационные волны (см. границу Лита у Lyth–Liddle).
 
 [Страница издателя ↗](https://global.oup.com/academic/product/gravitational-waves-9780198570745)

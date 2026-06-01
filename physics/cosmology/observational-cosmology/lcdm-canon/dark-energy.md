@@ -1,17 +1,20 @@
 ---
-layout: ts-page
+layout: tsb-page
 title: "Dark Energy: Theory and Observations"
-title_ru: "Тёмная энергия"
+title_ru: "Тёмная энергия: теория и наблюдения"
 permalink: /physics/cosmology/observational-cosmology/lcdm-canon/dark-energy/
 section: lcdm-canon
-order: 90
+order: 80
 body_class: page-lcdm-canon
 author: "Luca Amendola, Shinji Tsujikawa"
-biblio: "Cambridge University Press, 2010. ISBN 978-0-521-51600-6. 507 с."
+publisher: "Cambridge University Press"
+year: "2010"
+isbn: "978-0-521-51600-6"
+pages: "507 с."
 cover: "https://assets.cambridge.org/97805215/16006/cover/9780521516006.jpg"
 cover_label: "Dark Energy"
 register: "Рабочая монография"
-annotation: "Монография по Λ-сектору — «контейнеру для незнания». Модели тёмной энергии, наблюдательные ограничения, методы различения сценариев."
+annotation: "Монография прямо по Λ-сектору — тому самому «контейнеру для незнания». Модели тёмной энергии, наблюдательные ограничения, методы различения сценариев (квинтэссенция, модифицированная гравитация и др.)."
 breadcrumbs:
   - title: "Физика"
     url: /physics/
@@ -24,12 +27,6 @@ breadcrumbs:
   - title: "Dark Energy: Theory and Observations"
 ---
 
-# Dark Energy: Theory and Observations
-
-*Тёмная энергия*
-
-**Luca Amendola, Shinji Tsujikawa** — Cambridge University Press, 2010. ISBN 978-0-521-51600-6. 507 с.
-
-Монография по Λ-сектору — «контейнеру для незнания». Модели тёмной энергии, наблюдательные ограничения, методы различения сценариев.
+Монография прямо по Λ-сектору — тому самому «контейнеру для незнания». Модели тёмной энергии, наблюдательные ограничения, методы различения сценариев (квинтэссенция, модифицированная гравитация и др.).
 
 [Страница издателя ↗](https://www.cambridge.org/9780521516006)

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Структуры реальности</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    .book-box {
+      display: flex; gap: 24px; align-items: flex-start;
+      padding: 22px; margin: 0 0 28px;
+      background: var(--tile-bg, rgba(255,255,255,0.04));
+      border: 1px solid var(--tile-border, rgba(255,255,255,0.12));
+      border-radius: 16px;
+      backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    }
+    .book-cover {
+      flex-shrink: 0; width: 150px; border-radius: 8px; overflow: hidden;
+      background: rgba(255,255,255,0.05);
+      display: flex; align-items: center; justify-content: center; min-height: 200px;
+    }
+    .book-cover img { width: 100%; height: auto; display: block; }
+    .book-cover--empty { background: linear-gradient(135deg, var(--page-accent, #4a5a7a), rgba(0,0,0,0.5)); padding: 14px; }
+    .book-cover--empty::after { content: attr(data-label); color: var(--text); font-weight: 500; text-align: center; line-height: 1.3; }
+    .book-info { flex: 1; min-width: 0; }
+    .book-title { font-size: 1.4rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; color: var(--text); margin: 0 0 4px; }
+    .book-title-ru { font-size: 1.05rem; font-style: italic; color: var(--muted); margin: 0 0 4px; }
+    .book-author { font-size: 1.05rem; color: var(--text); opacity: 0.9; margin: 0 0 16px; }
+    .book-meta { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--tile-border, rgba(255,255,255,0.12)); padding-top: 14px; }
+    .book-meta li { display: flex; gap: 10px; font-size: 0.92rem; line-height: 1.7; }
+    .book-meta .k { color: var(--muted); min-width: 110px; flex-shrink: 0; }
+    .book-meta .v { color: var(--text); }
+    .book-register {
+      display: inline-block; margin-top: 14px; font-size: 0.78rem;
+      text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--page-accent, var(--muted));
+    }
+    @media (max-width: 640px) {
+      .book-box { flex-direction: column; gap: 16px; }
+      .book-cover { width: 130px; align-self: flex-start; }
+    }
+  </style>
+</head>
+
+<body class="{{ page.body_class }}">
+  <div class="page">
+
+    <header class="topbar">
+      <h1 class="brand">
+        <a href="{{ '/' | relative_url }}">Структуры реальности</a>{% for item in page.breadcrumbs %}<span class="crumb-sep">/</span>{% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}<span class="crumb-current">{{ item.title }}</span>{% endif %}{% endfor %}
+      </h1>
+    </header>
+
+    <main class="prose">
+
+      <div class="book-box">
+        <div class="book-cover">{% if page.cover %}<img src="{{ page.cover }}" alt="Обложка: {{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('book-cover--empty');this.parentNode.setAttribute('data-label','{{ page.cover_label | default: page.author }}');">{% else %}<span style="color:var(--text);font-weight:500;text-align:center;padding:14px;">{{ page.cover_label | default: page.author }}</span>{% endif %}</div>
+        <div class="book-info">
+          <p class="book-title">{{ page.title }}</p>
+          {% if page.title_ru %}<p class="book-title-ru">{{ page.title_ru }}</p>{% endif %}
+          {% if page.author %}<p class="book-author">{{ page.author }}</p>{% endif %}
+          <ul class="book-meta">
+            {% if page.publisher %}<li><span class="k">Издательство</span><span class="v">{{ page.publisher }}</span></li>{% endif %}
+            {% if page.year %}<li><span class="k">Год</span><span class="v">{{ page.year }}{% if page.edition %} · {{ page.edition }}{% endif %}</span></li>{% endif %}
+            {% if page.isbn %}<li><span class="k">ISBN</span><span class="v">{{ page.isbn }}</span></li>{% endif %}
+            {% if page.pages %}<li><span class="k">Объём</span><span class="v">{{ page.pages }}</span></li>{% endif %}
+          </ul>
+          {% if page.register %}<span class="book-register">{{ page.register }}</span>{% endif %}
+        </div>
+      </div>
+
+      {{ content }}
+
+    </main>
+
+  </div>
+</body>
+</html>

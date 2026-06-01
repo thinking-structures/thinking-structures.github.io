@@ -1,5 +1,5 @@
 ---
-layout: ts-page
+layout: tsb-page
 title: "An Introduction to Modern Cosmology"
 title_ru: "Введение в современную космологию"
 permalink: /physics/cosmology/observational-cosmology/lcdm-canon/ryden/
@@ -7,11 +7,15 @@ section: lcdm-canon
 order: 10
 body_class: page-lcdm-canon
 author: "Barbara Ryden"
-biblio: "Cambridge University Press, 2-е изд., 2016. ISBN 978-1-107-15483-4. 276 с."
+publisher: "Cambridge University Press"
+year: "2016"
+edition: "2-е изд."
+isbn: "978-1-107-15483-4"
+pages: "276 с."
 cover: "https://assets.cambridge.org/97811071/54834/cover/9781107154834.jpg"
 cover_label: "Ryden"
 register: "Учебник-введение"
-annotation: "Самый мягкий вход в предмет — бакалаврский учебник. Расширение, реликт, нуклеосинтез, тёмная энергия в рамках Большого взрыва."
+annotation: "Самый мягкий вход в предмет — бакалаврский учебник. Расширение Вселенной, реликтовое излучение, нуклеосинтез, тёмная энергия в рамках Большого взрыва. Опорный текст для первого знакомства со стандартной картиной: ясный язык, бытовые аналогии, упор на связь теоретических понятий с наблюдаемыми свойствами Вселенной."
 breadcrumbs:
   - title: "Физика"
     url: /physics/
@@ -24,12 +28,6 @@ breadcrumbs:
   - title: "An Introduction to Modern Cosmology"
 ---
 
-# An Introduction to Modern Cosmology
-
-*Введение в современную космологию*
-
-**Barbara Ryden** — Cambridge University Press, 2-е изд., 2016. ISBN 978-1-107-15483-4. 276 с.
-
-Самый мягкий вход в предмет — бакалаврский учебник. Расширение, реликт, нуклеосинтез, тёмная энергия в рамках Большого взрыва.
+Самый мягкий вход в предмет — бакалаврский учебник. Расширение Вселенной, реликтовое излучение, нуклеосинтез, тёмная энергия в рамках Большого взрыва. Опорный текст для первого знакомства со стандартной картиной: ясный язык, бытовые аналогии, упор на связь теоретических понятий с наблюдаемыми свойствами Вселенной.
 
 [Страница издателя ↗](https://www.cambridge.org/9781107154834)
