@@ -3,7 +3,7 @@ layout: tsb-person
 title: "Пас, Хуан Пабло"
 permalink: /physics/quantum-physics/personalities/paz/
 section: quantum-physics-personalities
-order: 30
+order: 220
 body_class: page-quantum-physics
 initials: "ПП"
 years: "р. 1959"

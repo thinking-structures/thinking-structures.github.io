@@ -3,7 +3,7 @@ layout: tsb-person
 title: "Цех, Хайнц-Дитер"
 permalink: /physics/quantum-physics/personalities/zeh/
 section: quantum-physics-personalities
-order: 10
+order: 200
 body_class: page-quantum-physics
 initials: "ЦХ"
 years: "1932–2018"

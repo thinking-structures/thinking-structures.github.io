@@ -3,7 +3,7 @@ layout: tsb-person
 title: "Зурек, Войцех"
 permalink: /physics/quantum-physics/personalities/zurek/
 section: quantum-physics-personalities
-order: 20
+order: 210
 body_class: page-quantum-physics
 initials: "ЗВ"
 years: "р. 1951"
