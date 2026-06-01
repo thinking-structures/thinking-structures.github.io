@@ -42,7 +42,7 @@
     <main class="prose">
 
       <div class="person-box">
-        <div class="person-box-photo">{% if page.portraits %}{% if page.portraits contains "http" %}<img src="{{ page.portrait }}" alt="{{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('person-box-photo--empty');this.parentNode.setAttribute('data-initials','{{ page.initials }}');">{% else %}<img src="{{ page.portrait }}" alt="{{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('person-box-photo--empty');this.parentNode.setAttribute('data-initials','{{ page.initials }}');">{% endif %}{% else %}<span style="color:var(--text);font-size:2.2rem;font-weight:600;">{{ page.initials }}</span>{% endif %}</div>
+        <div class="person-box-photo">{% if page.portraits %}{% if page.portraits contains "http" %}<img src="{{ page.portraits }}" alt="{{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('person-box-photo--empty');this.parentNode.setAttribute('data-initials','{{ page.initials }}');">{% else %}<img src="{{ page.portraits }}" alt="{{ page.title }}" onerror="this.style.display='none';this.parentNode.classList.add('person-box-photo--empty');this.parentNode.setAttribute('data-initials','{{ page.initials }}');">{% endif %}{% else %}<span style="color:var(--text);font-size:2.2rem;font-weight:600;">{{ page.initials }}</span>{% endif %}</div>
         <div class="person-box-info">
           <p class="person-box-name">{{ page.title }}</p>
           {% if page.years %}<p class="person-box-years">{{ page.years }}</p>{% endif %}
