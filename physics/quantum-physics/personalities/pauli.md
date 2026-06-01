@@ -11,7 +11,7 @@ years: "1900–1958"
 field: "Принцип запрета, спин, квантовая теория поля"
 affiliation: "ETH Zürich (Высшая техническая школа Цюриха)"
 contribution: "Принцип запрета Паули (1925); гипотеза нейтрино"
-portrait: "pauli.jpg"
+portraits: "pauli.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

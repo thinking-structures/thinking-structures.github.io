@@ -11,7 +11,7 @@ years: "р. 1951"
 field: "Декогеренция, квантово-классический переход, квантовая информация"
 affiliation: "Лос-Аламосская национальная лаборатория"
 contribution: "Автор концепции einselection и pointer states; теория quantum Darwinism"
-portrait: "zurek.jpg"
+portraits: "zurek.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

@@ -11,7 +11,7 @@ years: "1904–1974"
 field: "Основания КМ, квантовая теория поля, защита копенгагенской ортодоксии"
 affiliation: "Манчестерский университет; институт Бора (Копенгаген); NORDITA"
 contribution: "Ближайший соратник Бора; принципиальный защитник копенгагенской интерпретации"
-portrait: "rosenfeld.jpg"
+portraits: "rosenfeld.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

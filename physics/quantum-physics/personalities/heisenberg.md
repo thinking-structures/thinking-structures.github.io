@@ -11,7 +11,7 @@ years: "1901–1976"
 field: "Матричная механика, принцип неопределённости"
 affiliation: "Лейпцигский университет; Институт физики им. Макса Планка"
 contribution: "Матричная механика (1925); принцип неопределённости (1927)"
-portrait: "heisenberg.jpg"
+portraits: "heisenberg.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

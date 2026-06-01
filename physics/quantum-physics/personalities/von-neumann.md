@@ -11,7 +11,7 @@ years: "1903–1957"
 field: "Математические основания КМ, теория измерения"
 affiliation: "Институт перспективных исследований, Принстон"
 contribution: "Аксиоматизация КМ (1932); теория измерения, цепочка фон Неймана"
-portrait: "von-neumann.jpg"
+portraits: "von-neumann.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

@@ -11,7 +11,7 @@ years: "1887–1961"
 field: "Волновая механика, уравнение Шрёдингера, основания КМ"
 affiliation: "Берлинский университет; Дублинский институт перспективных исследований"
 contribution: "Волновая механика и уравнение Шрёдингера (1926); мысленный эксперимент с котом"
-portrait: "schrodinger.jpg"
+portraits: "schrodinger.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

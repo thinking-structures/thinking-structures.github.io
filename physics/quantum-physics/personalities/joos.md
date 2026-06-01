@@ -11,7 +11,7 @@ years: "р. 1951"
 field: "Декогеренция, квантово-классический переход"
 affiliation: "Гейдельбергский университет (сотрудничество с Цехом)"
 contribution: "Соавтор основополагающей статьи о декогеренции Joos–Zeh (1985)"
-portrait: "joos.jpg"
+portraits: "joos.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

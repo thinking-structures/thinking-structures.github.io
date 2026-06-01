@@ -11,7 +11,7 @@ years: "1858–1947"
 field: "Квантовая гипотеза, теория теплового излучения, термодинамика"
 affiliation: "Берлинский университет; Общество кайзера Вильгельма"
 contribution: "Ввёл квант действия h (1900) — точку отсчёта всей квантовой физики"
-portrait: "planck.jpg"
+portraits: "planck.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/

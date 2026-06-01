@@ -11,7 +11,7 @@ years: "1892–1987"
 field: "Волны материи, теория волны-пилота"
 affiliation: "Парижский университет (Сорбонна)"
 contribution: "Гипотеза волн материи (1924); теория волны-пилота — предтеча механики Бома"
-portrait: "de-broglie.jpg"
+portraits: "de-broglie.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/
