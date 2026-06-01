@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/zurek/
 section: quantum-physics-personalities
 order: 210
 body_class: page-quantum-physics
+era: "contemporaries"
 initials: "ЗВ"
 years: "р. 1951"
 field: "Декогеренция, квантово-классический переход, квантовая информация"

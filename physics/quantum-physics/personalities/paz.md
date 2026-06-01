@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/paz/
 section: quantum-physics-personalities
 order: 220
 body_class: page-quantum-physics
+era: "contemporaries"
 initials: "ПП"
 years: "р. 1959"
 field: "Открытые квантовые системы, декогеренция, квантовая информация"
