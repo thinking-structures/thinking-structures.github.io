@@ -11,7 +11,7 @@ years: "1928–1990"
 field: "Основания КМ, неравенства Белла, квантовая нелокальность"
 affiliation: "ЦЕРН"
 contribution: "Неравенства Белла (1964) — экспериментальный критерий локального реализма"
-portrait: "bell.jpg"
+portraits: "bell.jpg"
 breadcrumbs:
   - title: "Физика"
     url: /physics/
