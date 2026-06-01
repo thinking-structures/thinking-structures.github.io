@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/zeh/
 section: quantum-physics-personalities
 order: 200
 body_class: page-quantum-physics
+era: "contemporaries"
 initials: "ЦХ"
 years: "1932–2018"
 field: "Основания квантовой механики, программа декогеренции, интерпретация Эверетта"

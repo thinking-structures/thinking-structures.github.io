@@ -5,6 +5,7 @@ permalink: /physics/quantum-physics/personalities/planck/
 section: quantum-physics-personalities
 order: 10
 body_class: page-quantum-physics
+era: "founders"
 initials: "МП"
 years: "1858–1947"
 field: "Квантовая гипотеза, теория теплового излучения, термодинамика"
