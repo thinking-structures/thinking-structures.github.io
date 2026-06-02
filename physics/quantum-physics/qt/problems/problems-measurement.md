@@ -250,10 +250,3 @@ QBism (квантовый байесианизм; Фукс, Шак, Мермин
 
 *Примечание по терминологии: einselection — средовый суперотбор; pointer states — указательные состояния; and/or problem (Белл) — проблема «или–и»; объективный коллапс / спонтанная локализация. Нумерация «6 постулатов», встречающаяся в части учебной литературы, как несущая конструкция сознательно не используется — это локальный артефакт преподавательской традиции, сбивающий с толку.*
 
-<script>
-  window.MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
-    options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
-  };
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
