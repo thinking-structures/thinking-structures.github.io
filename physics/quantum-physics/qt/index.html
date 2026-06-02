@@ -5,35 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Квантовая теория (QT) — Структуры реальности</title>
   <link rel="stylesheet" href="../../../assets/css/style.css">
-  <style>
-    .menu-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      max-width: 480px;
-      margin: 32px 0 0;
-    }
-    .menu-item {
-      display: block;
-      padding: 14px 20px;
-      background: var(--tile-bg);
-      border: 1px solid var(--tile-border);
-      border-radius: 12px;
-      color: var(--text);
-      text-decoration: none;
-      font-size: 1.05rem;
-      font-weight: 500;
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-    }
-    .menu-item:hover {
-      background: var(--tile-bg-hover);
-      border-color: var(--page-accent, rgba(255,255,255,0.4));
-      transform: translateX(4px);
-      text-decoration: none;
-    }
-  </style>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -61,19 +32,39 @@
     </section>
 
     <article class="prose">
-      <p>Основания квантовой механики, проблема измерения, волновая функция и смежные концептуальные вопросы.</p>
+      <p>Основания квантовой механики: от концептуальных проблем через физические решения к интерпретациям. Проблема измерения, волновая функция и смежные вопросы.</p>
     </article>
 
-    <nav class="menu-list">
-      <a href="decoherence/index.html" class="menu-item">Декогеренция</a>
-      <a href="interp/index.html" class="menu-item">Интерпретации</a>
-      <a href="interesting-publications/" class="menu-item">Интересные публикации</a>
-      <a href="personalities/" class="menu-item">Персоналии</a>
-    </nav>
+    <div class="section-layout">
+
+      <div class="section-main-wrapper">
+        <nav class="section-main" aria-label="Разделы квантовой теории">
+          <a href="problems/index.html" class="article-card">
+            <span class="article-card-title">Проблемы</span>
+            <span class="article-card-desc">Концептуальные затруднения оснований: проблема измерения, коллапс, кот Шрёдингера, цепочка фон Неймана, ЭПР и нелокальность.</span>
+          </a>
+          <a href="solutions/index.html" class="article-card">
+            <span class="article-card-title">Решения</span>
+            <span class="article-card-desc">Физические подходы к разрешению проблемы измерения и квантово-классического перехода — прежде всего декогеренция.</span>
+          </a>
+          <a href="interpretations/index.html" class="article-card">
+            <span class="article-card-title">Интерпретации</span>
+            <span class="article-card-desc">Метафизические прочтения квантовой механики: копенгагенская, многомировая, бомовская, реляционная, QBism.</span>
+          </a>
+        </nav>
+      </div>
+
+      <nav class="section-side" aria-label="Сервисные разделы">
+        <a href="../personalities/index.html" class="side-item">Персоналии</a>
+        <a href="interesting-publications/index.html" class="side-item">Интересные публикации</a>
+      </nav>
+
+    </div>
 
     <article class="prose">
       <p class="back-link"><a href="../index.html">← Квантовая физика</a></p>
     </article>
+
   </div>
 </body>
 </html>
