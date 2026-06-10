@@ -1,7 +1,7 @@
 ---
 layout: tsb-person
 title: "Ульман, Шимон"
-permalink: /cognitology/psyche/perception/models/identification/personalities/nikolaev/
+permalink: /cognitology/psyche/perception/models/identification/personalities/ullman/
 section: perception-personalities
 order: 110
 body_class: page-cognitology
@@ -19,8 +19,12 @@ breadcrumbs:
     url: /cognitology/psyche/
   - title: "Восприятие"
     url: /cognitology/psyche/perception/
+  - title: "Модели"
+    url: /cognitology/psyche/perception/models/
+  - title: "Опознание"
+    url: /cognitology/psyche/perception/models/identification/
   - title: "Персоналии"
-    url: /cognitology/psyche/perception/personalities/
+    url: /cognitology/psyche/perception/models/identification/personalities/
   - title: "Ульман, Шимон"
 ---
 
@@ -95,11 +99,13 @@ breadcrumbs:
 - **Учитель**: Дэвид Марр — под его руководством защищена диссертация 1977 года,
   лёгшая в основу книги 1979-го.
 - **Параллельный курс**: советская школа биофизики зрения (ИППИ) —
-  [П.П. Николаев](/cognitology/psyche/perception/personalities/nikolaev/), Бонгард,
+  [П.П. Николаев](/cognitology/psyche/perception/models/identification/personalities/nikolaev/), Бонгард,
   Зенкин искали те же строгие математические ограничения, что делают возможным
   константное восприятие формы. Сам Николаев в работе 1987 года опирается на тезисы
   Ульмана об установлении соответствия, предлагая иной аппарат (проективные
-  инварианты вместо минимального отображения).
+  инварианты вместо минимального отображения), и развивает тему соответствия в
+  собственной серии «Алгоритмы корреспонденции в задачах распознавания и
+  стереосинтеза» (*Сенсорные системы*, 1990–1991).
 
 ## Внешние ссылки
 
