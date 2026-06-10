@@ -1,7 +1,7 @@
 ---
 layout: tsb-person
 title: "Николаев, Пётр Петрович"
-permalink: /cognitology/psyche/perception/personalities/nikolaev/
+permalink: /cognitology/psyche/perception/models/identification/personalities/nikolaev/
 section: perception-personalities
 order: 300
 body_class: page-cognitology
